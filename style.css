@@ -2,10 +2,18 @@ body {
   background-color: #313134;
   color: white;
 }
+.logo {
+  width: 17%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 main {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .title {
@@ -17,20 +25,44 @@ main {
 }
 
 img {
-  width: 48%;
+  width: 12%;
   display: block;
   margin: auto;
 }
 
 #pokemons-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin: 0 auto;
   gap: 1rem;
   text-align: center;
 }
-.pokemon {
+.pokemon-card {
   border: 1px solid;
   border-radius: 1rem;
+  -webkit-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.32);
+}
 
+.pokemon-img {
+  width: 71%;
+  height: 56%;
+  display: block;
+  margin: auto;
+  padding: 2rem 0px;
+}
+
+.id-pokemon {
+  background-color: gray;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: capitalize;
 }
