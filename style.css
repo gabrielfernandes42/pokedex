@@ -1,0 +1,36 @@
+body {
+  background-color: #313134;
+  color: white;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  background-color: #ff2e2e;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+img {
+  width: 48%;
+  display: block;
+  margin: auto;
+}
+
+#pokemons-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 1rem;
+  text-align: center;
+}
+.pokemon {
+  border: 1px solid;
+  border-radius: 1rem;
+
+}
